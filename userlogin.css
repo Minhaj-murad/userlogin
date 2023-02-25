@@ -22,7 +22,9 @@
 .userlogin-container{
     margin-block: 0;
     background-color: #3742fa;
-   height: 100vh;
+    min-height: 100vh;
+    height: auto;
+    padding-bottom: 40px;
 }
 .userlogin-container-upper{
     padding-top: 40px;
@@ -165,7 +167,7 @@
    color: #ffa502;
 }
 
-@media screen and (max-width: 626px) {
+@media screen and (max-width: 826px) {
 
     
 .userlogin-container {
@@ -175,6 +177,19 @@
     padding-top: 20px;
     margin-inline: auto;
   
+}
+.userlogin-container-form {
+    background-color: #fff;
+    width: 90vw;
+    border-radius: 10px;
+    height: auto;
+    margin-top: 40px;
+    padding-block: 20px;
+    margin-inline: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.userlogin-others{
+    width: 90vw;
 }
 }
 
