@@ -1,0 +1,180 @@
+/*================================================================================================================
+        DEFAULT VALUES:
+        Font Family                 :   "Roboto Condensed", sans-serif
+        
+        Greenish Blue               :   #3742fa or rgb(55, 66, 250)    (buttons, Icons, Links, lines & Backgrounds)
+        Steel Gray                  :   #41464b     (Headings)
+        Blue Bayoux                 :   #64707b     (paragraphs)
+        white                       :   #fff        (text with black backgrounds)
+        Black                       :   #000        ()
+        hover                       :   #ffa502 or rgb(255, 165, 2)     (hover)
+=================================================================================================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Roboto Condensed';
+   
+
+}
+.userlogin-container{
+    margin-block: 0;
+    background-color: #3742fa;
+   height: 100vh;
+}
+.userlogin-container-upper{
+    padding-top: 40px;
+    color: whitesmoke;
+}
+.userlogin-container-form {
+    background-color: #fff;
+    width: 40vw;
+    border-radius: 10px;
+    height: auto;
+    margin-top: 40px;
+    padding-block: 20px;
+    margin-inline: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.userlogin-container-form-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.userlogin-name{
+    margin: 0;
+    font-size: 40px;
+    font-weight: 600;
+    align-items: center;
+}
+.userlogin-container-form-top-logo {
+    margin-right: 10px;
+}
+
+
+.userlogin-container-form-intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.userlogin-container-form-name{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+
+
+.userlogin-container-form-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.userlogin-container-form-email {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.userlogin-subimt-button {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #3742fa;
+    border: 2px solid gray;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    padding: 7px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.userlogin-subimt-button:hover {
+  
+    background-color: #ffa502;
+}
+
+.userlogin-container-form-fieldname{
+    font-size: 18px;
+    font-weight: 600;
+}
+.userlogin-input-field{
+    text-align: center;
+    height: 40px;
+    width: 300px;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+.userlogin-input-field:focus {
+   border: none;
+   border-bottom: 2px solid gray;
+   outline: none;
+
+}
+
+#userlogin-loginfont{
+    font-size: larger;
+    margin-right: 10px;
+}
+
+
+.userlogin-conditions-topic{
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+   
+}
+.userlogin-conditions-topics{
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-inline: 10px;
+}
+.userlogin-conditions-topics:hover{
+    color: #ffa502;
+ }
+.vl {
+  border-left: 2px solid rgb(7, 8, 7);
+  height: 20px;
+  font-weight: 600;
+  align-items: center;
+}
+
+
+.userlogin-others{
+    width: 30vw;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.userlogin-others-topics{
+    text-decoration: none;
+    font-weight: 600;
+}
+.userlogin-others-topics:hover{
+   color: #ffa502;
+}
+
+@media screen and (max-width: 626px) {
+
+    
+.userlogin-container {
+    width: 100vw;
+    height: auto;
+    margin-top: 0px;
+    padding-top: 20px;
+    margin-inline: auto;
+  
+}
+}
+
